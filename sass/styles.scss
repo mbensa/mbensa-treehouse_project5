@@ -1,4 +1,32 @@
 @import "base/index";
-@import "layout/index";
-@import "modules/index";
-@import "utilities/index";
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  > a {
+    .gallery-thumbnail {
+      padding-right: 60px;
+      padding-top: 40px;
+    }
+
+    &:nth-child(4n) {
+      .gallery-thumbnail {
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+#search {
+  padding: 5px;
+  width: 400px;
+  font-family: "Muli", sans-serif;
+}

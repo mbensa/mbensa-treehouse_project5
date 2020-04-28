@@ -4,8 +4,8 @@
   "description": "This project is a part of the Treehouse Techdegree. The goal of this project was to create an interactive photo gallery using JavaScript and jQuery.",
   "main": "index.js",
   "scripts": {
-    "sass-build": "node-sass scss/styles.scss css/style.css",
-    "sass": "node-sass -w scss/styles.scss css/style.css"
+    "sass-build": "node-sass sass/styles.scss css/style.css",
+    "sass": "node-sass -w sass/styles.scss css/style.css"
   },
   "repository": {
     "type": "git",

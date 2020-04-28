@@ -115,7 +115,7 @@ $.each(gallery, function (index, item) {
 
   imgEl.src = item.src;
   imgEl.alt = item.alt;
-  imgEl.class = item.class;
+  imgEl.className = item.class;
 
   const aEl = document.createElement("a");
 
