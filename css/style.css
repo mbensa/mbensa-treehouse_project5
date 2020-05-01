@@ -303,22 +303,20 @@ template {
 [hidden] {
   display: none; }
 
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
-  .gallery > a .gallery-thumbnail {
-    padding-right: 60px;
-    padding-top: 40px; }
-  .gallery > a:nth-child(4n) .gallery-thumbnail {
-    padding-right: 0; }
-
 .search-box {
   display: flex;
   justify-content: center;
   padding-top: 50px; }
+  .search-box #search {
+    padding: 5px;
+    width: 40%;
+    font-family: "Muli", sans-serif; }
 
-#search {
-  padding: 5px;
-  width: 400px;
-  font-family: "Muli", sans-serif; }
+.gallery {
+  display: grid;
+  max-width: 1000px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+  grid-gap: 20px;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 50px; }
