@@ -127,7 +127,7 @@ $.each(gallery, function (index, item) {
   $(".gallery").append(aEl);
 });
 
-// I found help withe the below on stackoverflow but I added optional chaining to check for undefined values
+// I found help with the below on stackoverflow but I added optional chaining to check for undefined values
 
 $(document).ready(function () {
   $("#search").keyup(function () {
