@@ -20,4 +20,11 @@
   margin: 0 auto;
   justify-content: center;
   margin-top: 50px;
+  &-thumbnail {
+    transition: all 0.2s ease-in-out;
+    box-shadow: 8px 8px 3px #cecece;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
 }
